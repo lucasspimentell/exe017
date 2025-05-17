@@ -20,7 +20,7 @@ function calcular() {
 
         let valor = document.createElement("option");
 
-        valor.text = `${numero}x${cont}=${resultado}`
+        valor.text = `${numero}x${cont}=${resultado}`;
 
         valor.value = `tab${cont}`;//para saber qual foi o item selecionado (tem mais sentido para outras linguages )
 

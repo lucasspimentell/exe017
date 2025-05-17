@@ -1,26 +1,27 @@
 body{
 
-    background-color: rgb(52, 124, 87);
+    background-color: rgb(82, 173, 209);
     font: normal 15pt arial;
 
 }
 
 header{
-
-    color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+    color: rgb(255, 255, 255);
     text-align: center;
 
 }
 
 section{
 
-    background-color: aliceblue;
+    background-color: rgb(148, 222, 169);
     border-radius: 5px;
     padding: 15px;
-    width: 500px;
+    width: 14rem;
     height: 250px;
     margin: auto;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.733);
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.733);
  
 }
 
@@ -28,4 +29,36 @@ footer{
 color: aliceblue;
 text-align: center;
 font-style: italic;
+}
+
+.tabua{
+width: 2rem;
+border-color:  rgb(52, 124, 87);
+box-shadow: 2px 2px  rgb(8, 42, 24);;
+}
+.buttont{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    box-shadow: 4px 3px 1px rgb(13, 49, 34);
+    block-size: 40px;
+    margin-top: 5px;
+    background-color: rgba(0, 57, 14, 0.827);
+    color: aliceblue;
+
+}
+#tabu{
+    margin: 20px;
+    width: 10rem;
+    box-shadow: 5px 5px  rgb(8, 35, 21);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#nomet{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 57, 0);
+    font-size: 15px;
+    
+    
 }
